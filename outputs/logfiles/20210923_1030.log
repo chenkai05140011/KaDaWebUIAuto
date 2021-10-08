@@ -1,0 +1,1034 @@
+2021-09-23 10:30:57 py39 INFO pure_video_course_page.py[第19行] 课堂页面_根据传入的名字切换导航栏
+2021-09-23 10:30:57 py39 INFO basepage.py[第493行] 当前项目根路径：E:\NingmengbanWebUIAuto\
+2021-09-23 10:30:57 py39 INFO basepage.py[第493行] 当前项目根路径：E:\NingmengbanWebUIAuto\
+2021-09-23 10:30:59 py39 INFO basepage.py[第61行] 元素 ('css', 'input[placeholder="请输入用户名"]') 可见并返回了元素对象
+2021-09-23 10:31:00 py39 INFO basepage.py[第61行] 元素 ('css', 'input[placeholder="请输入登录密码"]') 可见并返回了元素对象
+2021-09-23 10:31:00 py39 INFO basepage.py[第61行] 元素 ('css', 'button[type=button]') 可见并返回了元素对象
+2021-09-23 10:31:00 py39 INFO basepage.py[第61行] 元素 ('css', 'span.no-redirect') 可见并返回了元素对象
+2021-09-23 10:31:00 py39 INFO basepage.py[第130行] 获取元素：('css', 'span.no-redirect')的文本值：首页
+2021-09-23 10:31:00 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='活动管理']") 可见并返回了元素对象
+2021-09-23 10:31:01 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='活动列表']") 可见并返回了元素对象
+2021-09-23 10:31:04 py39 INFO basepage.py[第61行] 元素 ('xpath', "//h3[text()='活动配置']") 可见并返回了元素对象
+2021-09-23 10:31:04 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//h3[text()='活动配置']")的文本值：活动配置
+2021-09-23 10:31:04 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='活动管理']") 可见并返回了元素对象
+2021-09-23 10:31:04 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='活动列表']") 可见并返回了元素对象
+2021-09-23 10:31:04 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 配置 ']") 可见并返回了元素对象
+2021-09-23 10:31:22 py39 ERROR basepage.py[第80行] 等待元素('xpath', "//h3[text()='活动配置 - 手机号领福利']")出现失败
+Traceback (most recent call last):
+  File "E:\NingmengbanWebUIAuto\tools\basepage.py", line 58, in find_element
+    element = self.driver.find_element_by_xpath(value)
+  File "c:\users\16552\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "c:\users\16552\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "c:\users\16552\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "c:\users\16552\appdata\local\programs\python\python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[text()='活动配置 - 手机号领福利']"}
+  (Session info: chrome=92.0.4515.131)
+
+2021-09-23 10:31:22 py39 INFO basepage.py[第371行] 当前页面的截图存储在：E:\NingmengbanWebUIAuto\outputs\screenshots\获取验证文本【活动配置-手机号领福利】_20210923-103122.png
+2021-09-23 10:31:22 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='活动管理']") 可见并返回了元素对象
+2021-09-23 10:31:22 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='活动列表']") 可见并返回了元素对象
+2021-09-23 10:31:23 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 统计 ']") 可见并返回了元素对象
+2021-09-23 10:31:26 py39 INFO basepage.py[第61行] 元素 ('xpath', "//h3[text()='活动统计 - 手机号领福利']") 可见并返回了元素对象
+2021-09-23 10:31:26 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//h3[text()='活动统计 - 手机号领福利']")的文本值：活动统计 - 手机号领福利
+2021-09-23 10:31:26 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:31:26 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='课程管理列表'])[1]") 可见并返回了元素对象
+2021-09-23 10:31:26 py39 INFO hd_course_page.py[第21行] hd课程查询
+2021-09-23 10:31:27 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@type='number'])[1]") 可见并返回了元素对象
+2021-09-23 10:31:27 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 查询 ']") 可见并可用，返回了元素对象
+2021-09-23 10:31:27 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 查询 ']") 可见并返回了元素对象
+2021-09-23 10:31:28 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[1]") 可见并返回了元素对象
+2021-09-23 10:31:28 py39 INFO basepage.py[第130行] 获取元素：('xpath', "(//td[@colspan='1']//div)[1]")的文本值：90427
+2021-09-23 10:31:28 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@type='number'])[1]") 可见并返回了元素对象
+2021-09-23 10:31:28 py39 INFO basepage.py[第299行] 鼠标移动到元素 ('xpath', "(//input[@type='number'])[1]")
+2021-09-23 10:31:29 py39 INFO basepage.py[第412行] 元素 ('css', '.el-input__suffix .el-icon-circle-close') 可见并可用，返回了元素对象
+2021-09-23 10:31:29 py39 INFO basepage.py[第61行] 元素 ('css', '.el-input__suffix .el-icon-circle-close') 可见并返回了元素对象
+2021-09-23 10:31:29 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:31:29 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='课程管理列表'])[1]") 可见并返回了元素对象
+2021-09-23 10:31:29 py39 INFO hd_course_page.py[第38行] hd课程新增
+2021-09-23 10:31:29 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增课程 ']") 可见并可用，返回了元素对象
+2021-09-23 10:31:29 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增课程 ']") 可见并返回了元素对象
+2021-09-23 10:31:29 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[@placeholder='长度在 1 到 15 个字符']") 可见并返回了元素对象
+2021-09-23 10:31:29 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//input[@placeholder='长度在 1 到 15 个字符']"), 最长等待时间: 15秒.
+2021-09-23 10:31:29 py39 INFO basepage.py[第493行] 当前项目根路径：E:\NingmengbanWebUIAuto\
+2021-09-23 10:31:29 py39 INFO basepage.py[第412行] 元素 ('xpath', "//input[@placeholder='长度在 1 到 15 个字符']") 可见并可用，返回了元素对象
+2021-09-23 10:31:29 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[@placeholder='长度在 1 到 15 个字符']") 可见并返回了元素对象
+2021-09-23 10:31:29 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//input[@placeholder='请选择'])[1]") 可见并可用，返回了元素对象
+2021-09-23 10:31:29 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@placeholder='请选择'])[1]") 可见并返回了元素对象
+2021-09-23 10:31:31 py39 INFO basepage.py[第461行] Sleep for 2 seconds
+2021-09-23 10:31:32 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='内部课程']") 可见并可用，返回了元素对象
+2021-09-23 10:31:32 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内部课程']") 可见并返回了元素对象
+2021-09-23 10:31:32 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//input[@placeholder='请选择'])[2]") 可见并可用，返回了元素对象
+2021-09-23 10:31:32 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@placeholder='请选择'])[2]") 可见并返回了元素对象
+2021-09-23 10:31:32 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='视频课程']") 可见并可用，返回了元素对象
+2021-09-23 10:31:32 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='视频课程']") 可见并返回了元素对象
+2021-09-23 10:31:32 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//input[@placeholder='请选择'])[3]") 可见并可用，返回了元素对象
+2021-09-23 10:31:32 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@placeholder='请选择'])[3]") 可见并返回了元素对象
+2021-09-23 10:31:32 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='学科拓展']") 可见并可用，返回了元素对象
+2021-09-23 10:31:32 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='学科拓展']") 可见并返回了元素对象
+2021-09-23 10:31:32 py39 INFO basepage.py[第61行] 元素 ('css', "[accept='image/*']") 可见并返回了元素对象
+2021-09-23 10:31:32 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[@placeholder='建议输入21字以内']") 可见并返回了元素对象
+2021-09-23 10:31:32 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='基础订阅量:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:31:32 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[@placeholder='长度不超过6个字']") 可见并返回了元素对象
+2021-09-23 10:31:32 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[@placeholder='长度不超过6个字']") 可见并返回了元素对象
+2021-09-23 10:31:33 py39 INFO basepage.py[第61行] 元素 ('id', 'tab-2') 可见并返回了元素对象
+2021-09-23 10:31:33 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='开始编辑...']") 可见并返回了元素对象
+2021-09-23 10:31:33 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:31:35 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:31:35 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='视频课程管理']") 可见并返回了元素对象
+2021-09-23 10:31:35 py39 INFO pure_video_course_page.py[第36行] 互动课程查询
+2021-09-23 10:31:36 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:31:36 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(1) input') 可见并返回了元素对象
+2021-09-23 10:31:36 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(2) input') 可见并返回了元素对象
+2021-09-23 10:31:36 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(3) input') 可见并返回了元素对象
+2021-09-23 10:31:36 py39 INFO basepage.py[第61行] 元素 ('css', "[x-placement='bottom-start']") 可见并返回了元素对象
+2021-09-23 10:31:36 py39 INFO basepage.py[第377行] 等待元素可见：('css', "[x-placement='bottom-start']"), 最长等待时间: 15秒.
+2021-09-23 10:31:36 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(4) input') 可见并返回了元素对象
+2021-09-23 10:31:36 py39 INFO basepage.py[第61行] 元素 ('css', "[x-placement='bottom-start']") 可见并返回了元素对象
+2021-09-23 10:31:36 py39 INFO basepage.py[第377行] 等待元素可见：('css', "[x-placement='bottom-start']"), 最长等待时间: 15秒.
+2021-09-23 10:31:36 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(5) button') 可见并返回了元素对象
+2021-09-23 10:31:38 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:31:38 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[1]") 可见并返回了元素对象
+2021-09-23 10:31:38 py39 INFO basepage.py[第130行] 获取元素：('xpath', "(//td[@colspan='1']//div)[1]")的文本值：90333
+2021-09-23 10:31:38 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(2) input') 可见并返回了元素对象
+2021-09-23 10:31:38 py39 INFO basepage.py[第299行] 鼠标移动到元素 ('css', 'form>div:nth-child(2) input')
+2021-09-23 10:31:38 py39 INFO basepage.py[第61行] 元素 ('css', '.el-input__suffix .el-icon-circle-close') 可见并返回了元素对象
+2021-09-23 10:31:38 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:31:38 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='视频课程管理']") 可见并返回了元素对象
+2021-09-23 10:31:38 py39 INFO basepage.py[第61行] 元素 ('css', '.white-bg>button') 可见并返回了元素对象
+2021-09-23 10:31:39 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:31:39 py39 INFO basepage.py[第61行] 元素 ('css', "input[maxlength='15']") 可见并返回了元素对象
+2021-09-23 10:31:39 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='请选择']") 可见并返回了元素对象
+2021-09-23 10:31:39 py39 INFO basepage.py[第61行] 元素 ('css', "[x-placement='bottom-start']") 可见并返回了元素对象
+2021-09-23 10:31:39 py39 INFO basepage.py[第377行] 等待元素可见：('css', "[x-placement='bottom-start']"), 最长等待时间: 15秒.
+2021-09-23 10:31:40 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:31:40 py39 INFO basepage.py[第61行] 元素 ('css', '.el-popper ul li:nth-child(1)') 可见并返回了元素对象
+2021-09-23 10:31:40 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='请输入课程对应的APP版本号']") 可见并返回了元素对象
+2021-09-23 10:31:40 py39 INFO basepage.py[第377行] 等待元素可见：('css', "[placeholder='请输入课程对应的APP版本号']"), 最长等待时间: 15秒.
+2021-09-23 10:31:40 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='请输入课程对应的APP版本号']") 可见并返回了元素对象
+2021-09-23 10:31:40 py39 INFO basepage.py[第61行] 元素 ('css', "[id='foot-button-cell'] .el-button--primary") 可见并返回了元素对象
+2021-09-23 10:31:42 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:31:42 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='视频课程管理']") 可见并返回了元素对象
+2021-09-23 10:31:42 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(2)') 可见并返回了元素对象
+2021-09-23 10:31:42 py39 INFO basepage.py[第61行] 元素 ('css', "input[maxlength='15']") 可见并返回了元素对象
+2021-09-23 10:31:42 py39 INFO basepage.py[第299行] 鼠标移动到元素 ('css', "input[maxlength='15']")
+2021-09-23 10:31:42 py39 INFO basepage.py[第61行] 元素 ('css', '.el-input__suffix .el-icon-circle-close') 可见并返回了元素对象
+2021-09-23 10:31:42 py39 INFO basepage.py[第61行] 元素 ('css', "input[maxlength='15']") 可见并返回了元素对象
+2021-09-23 10:31:42 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='请选择']") 可见并返回了元素对象
+2021-09-23 10:31:42 py39 INFO basepage.py[第61行] 元素 ('css', "[x-placement='bottom-start']") 可见并返回了元素对象
+2021-09-23 10:31:42 py39 INFO basepage.py[第377行] 等待元素可见：('css', "[x-placement='bottom-start']"), 最长等待时间: 15秒.
+2021-09-23 10:31:42 py39 INFO basepage.py[第61行] 元素 ('css', '.common-title-cont button') 可见并返回了元素对象
+2021-09-23 10:31:42 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='只能8字以内']") 可见并返回了元素对象
+2021-09-23 10:31:43 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='确 定'])[3]") 可见并返回了元素对象
+2021-09-23 10:31:43 py39 INFO basepage.py[第61行] 元素 ('css', "[id='foot-button-cell'] .el-button--primary") 可见并返回了元素对象
+2021-09-23 10:31:44 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:31:44 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='视频课程管理']") 可见并返回了元素对象
+2021-09-23 10:31:44 py39 INFO basepage.py[第412行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(3)') 可见并可用，返回了元素对象
+2021-09-23 10:31:44 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(3)') 可见并返回了元素对象
+2021-09-23 10:31:44 py39 INFO basepage.py[第412行] 元素 ('css', '.btn-con .el-button--primary') 可见并可用，返回了元素对象
+2021-09-23 10:31:44 py39 INFO basepage.py[第61行] 元素 ('css', '.btn-con .el-button--primary') 可见并返回了元素对象
+2021-09-23 10:31:44 py39 INFO basepage.py[第61行] 元素 ('css', 'form .el-col>div:nth-child(1) input') 可见并返回了元素对象
+2021-09-23 10:31:45 py39 INFO basepage.py[第61行] 元素 ('css', "[x-placement='bottom-start']") 可见并返回了元素对象
+2021-09-23 10:31:45 py39 INFO basepage.py[第377行] 等待元素可见：('css', "[x-placement='bottom-start']"), 最长等待时间: 15秒.
+2021-09-23 10:31:45 py39 INFO basepage.py[第61行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(1)') 可见并返回了元素对象
+2021-09-23 10:31:46 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:31:46 py39 INFO basepage.py[第61行] 元素 ('css', 'form .el-col>div:nth-child(2) input') 可见并返回了元素对象
+2021-09-23 10:31:46 py39 INFO basepage.py[第61行] 元素 ('css', "[x-placement='bottom-start']") 可见并返回了元素对象
+2021-09-23 10:31:46 py39 INFO basepage.py[第377行] 等待元素可见：('css', "[x-placement='bottom-start']"), 最长等待时间: 15秒.
+2021-09-23 10:31:46 py39 INFO basepage.py[第61行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(1)') 可见并返回了元素对象
+2021-09-23 10:31:46 py39 INFO basepage.py[第61行] 元素 ('css', 'form .el-col>div:nth-child(3) input') 可见并返回了元素对象
+2021-09-23 10:31:46 py39 INFO basepage.py[第61行] 元素 ('css', 'form .el-col>div:nth-child(5) input') 可见并返回了元素对象
+2021-09-23 10:31:46 py39 INFO basepage.py[第61行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(1)') 可见并返回了元素对象
+2021-09-23 10:31:46 py39 INFO basepage.py[第377行] 等待元素可见：('css', 'body>div:nth-last-of-type(1) ul li:nth-child(1)'), 最长等待时间: 15秒.
+2021-09-23 10:31:46 py39 INFO basepage.py[第61行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(2)') 可见并返回了元素对象
+2021-09-23 10:31:47 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:31:47 py39 INFO basepage.py[第61行] 元素 ('css', 'form .el-col>div:nth-child(7) input') 可见并返回了元素对象
+2021-09-23 10:31:49 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:31:49 py39 INFO basepage.py[第61行] 元素 ('css', 'form .el-col>div:nth-child(6) button') 可见并返回了元素对象
+2021-09-23 10:31:50 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:31:50 py39 INFO basepage.py[第493行] 当前项目根路径：E:\NingmengbanWebUIAuto\
+2021-09-23 10:31:55 py39 INFO basepage.py[第61行] 元素 ('css', 'form .el-col>div:nth-child(7) input') 可见并返回了元素对象
+2021-09-23 10:31:55 py39 INFO basepage.py[第377行] 等待元素可见：('css', 'form .el-col>div:nth-child(7) input'), 最长等待时间: 15秒.
+2021-09-23 10:31:55 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:31:56 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:31:56 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='视频课程管理']") 可见并返回了元素对象
+2021-09-23 10:31:56 py39 INFO basepage.py[第412行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(3)') 可见并可用，返回了元素对象
+2021-09-23 10:31:56 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(3)') 可见并返回了元素对象
+2021-09-23 10:31:57 py39 INFO basepage.py[第61行] 元素 ('xpath', "//label[text()='是否试学:']") 可见并返回了元素对象
+2021-09-23 10:31:57 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//label[text()='是否试学:']"), 最长等待时间: 15秒.
+2021-09-23 10:31:57 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(11) span:nth-child(2)') 可见并返回了元素对象
+2021-09-23 10:31:57 py39 INFO basepage.py[第61行] 元素 ('css', 'form .el-col>div:nth-child(3) input') 可见并返回了元素对象
+2021-09-23 10:31:57 py39 INFO basepage.py[第299行] 鼠标移动到元素 ('css', 'form .el-col>div:nth-child(3) input')
+2021-09-23 10:31:58 py39 INFO basepage.py[第61行] 元素 ('css', '.el-input__suffix .el-icon-circle-close') 可见并返回了元素对象
+2021-09-23 10:31:58 py39 INFO basepage.py[第61行] 元素 ('css', 'form .el-col>div:nth-child(3) input') 可见并返回了元素对象
+2021-09-23 10:31:58 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:31:59 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:31:59 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='视频课程管理']") 可见并返回了元素对象
+2021-09-23 10:31:59 py39 INFO basepage.py[第412行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(3)') 可见并可用，返回了元素对象
+2021-09-23 10:31:59 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(3)') 可见并返回了元素对象
+2021-09-23 10:32:00 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 全部试学 ']") 可见并返回了元素对象
+2021-09-23 10:32:00 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//span[text()=' 全部试学 ']")的文本值：全部试学
+2021-09-23 10:32:01 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:32:01 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 全部试学 ']") 可见并返回了元素对象
+2021-09-23 10:32:01 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='确 定'])[1]") 可见并返回了元素对象
+2021-09-23 10:32:01 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:32:01 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='视频课程管理']") 可见并返回了元素对象
+2021-09-23 10:32:02 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(4)') 可见并返回了元素对象
+2021-09-23 10:32:02 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='配置后将影响已购人数：基础订阅+实际订阅']") 可见并返回了元素对象
+2021-09-23 10:32:03 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='自动全屏时间（秒）']") 可见并返回了元素对象
+2021-09-23 10:32:03 py39 INFO basepage.py[第493行] 当前项目根路径：E:\NingmengbanWebUIAuto\
+2021-09-23 10:32:03 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@accept='.png,.gif'])[1]") 可见并返回了元素对象
+2021-09-23 10:32:03 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@accept='.png,.gif'])[2]") 可见并返回了元素对象
+2021-09-23 10:32:03 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@accept='.png,.gif'])[3]") 可见并返回了元素对象
+2021-09-23 10:32:03 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@accept='.png,.gif'])[4]") 可见并返回了元素对象
+2021-09-23 10:32:03 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@accept='.png,.gif'])[5]") 可见并返回了元素对象
+2021-09-23 10:32:03 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@placeholder='请输入'])[1]") 可见并返回了元素对象
+2021-09-23 10:32:03 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@placeholder='请输入'])[2]") 可见并返回了元素对象
+2021-09-23 10:32:03 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@placeholder='请输入'])[3]") 可见并返回了元素对象
+2021-09-23 10:32:03 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='配置后，将会在详情页显示']") 可见并返回了元素对象
+2021-09-23 10:32:04 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='每个标签长度不超过6个字，以回车隔开']") 可见并返回了元素对象
+2021-09-23 10:32:04 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='每个标签长度不超过6个字，以回车隔开']") 可见并返回了元素对象
+2021-09-23 10:32:04 py39 INFO basepage.py[第353行] 执行js命令 var q=document.getElementById('app-main').scrollTop=1000.
+2021-09-23 10:32:04 py39 INFO basepage.py[第61行] 元素 ('css', '.flex-cont>div:nth-child(1) .el-upload') 可见并返回了元素对象
+2021-09-23 10:32:05 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:32:12 py39 INFO basepage.py[第461行] Sleep for 2 seconds
+2021-09-23 10:32:12 py39 INFO basepage.py[第61行] 元素 ('xpath', "//section[@id='app-main']/div[1]/form[1]/div[4]/div[3]/div[1]/div[1]/div[1]/div[1]") 可见并返回了元素对象
+2021-09-23 10:32:13 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:32:20 py39 INFO basepage.py[第461行] Sleep for 2 seconds
+2021-09-23 10:32:20 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 提交 ']") 可见并返回了元素对象
+2021-09-23 10:32:21 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:32:21 py39 INFO basepage.py[第61行] 元素 ('css', '.el-notification .el-notification__title') 可见并返回了元素对象
+2021-09-23 10:32:21 py39 INFO basepage.py[第130行] 获取元素：('css', '.el-notification .el-notification__title')的文本值：上传成功
+2021-09-23 10:32:22 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:32:22 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='视频课程管理']") 可见并返回了元素对象
+2021-09-23 10:32:24 py39 INFO basepage.py[第461行] Sleep for 2 seconds
+2021-09-23 10:32:24 py39 INFO basepage.py[第412行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(3)') 可见并可用，返回了元素对象
+2021-09-23 10:32:24 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(3)') 可见并返回了元素对象
+2021-09-23 10:32:25 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:32:25 py39 INFO basepage.py[第412行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(11) span:nth-child(1)') 可见并可用，返回了元素对象
+2021-09-23 10:32:25 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(11) span:nth-child(1)') 可见并返回了元素对象
+2021-09-23 10:32:25 py39 INFO basepage.py[第412行] 元素 ('css', '.class-cont .el-button--primary') 可见并可用，返回了元素对象
+2021-09-23 10:32:25 py39 INFO basepage.py[第61行] 元素 ('css', '.class-cont .el-button--primary') 可见并返回了元素对象
+2021-09-23 10:32:26 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:32:26 py39 INFO basepage.py[第61行] 元素 ('css', '.el-notification .el-notification__title') 可见并返回了元素对象
+2021-09-23 10:32:26 py39 INFO basepage.py[第130行] 获取元素：('css', '.el-notification .el-notification__title')的文本值：上架成功
+2021-09-23 10:32:29 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:32:29 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='视频课程管理']") 可见并返回了元素对象
+2021-09-23 10:32:30 py39 INFO basepage.py[第412行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(3)') 可见并可用，返回了元素对象
+2021-09-23 10:32:30 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(3)') 可见并返回了元素对象
+2021-09-23 10:32:31 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:32:31 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//span[@class='el-checkbox__inner'])[1]") 可见并可用，返回了元素对象
+2021-09-23 10:32:31 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[@class='el-checkbox__inner'])[1]") 可见并返回了元素对象
+2021-09-23 10:32:31 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 批量上架 ']") 可见并可用，返回了元素对象
+2021-09-23 10:32:31 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 批量上架 ']") 可见并返回了元素对象
+2021-09-23 10:32:31 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//span[text()='确 定'])[1]") 可见并可用，返回了元素对象
+2021-09-23 10:32:31 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='确 定'])[1]") 可见并返回了元素对象
+2021-09-23 10:32:32 py39 INFO basepage.py[第61行] 元素 ('css', "[role='alert'] p") 可见并返回了元素对象
+2021-09-23 10:32:32 py39 INFO basepage.py[第377行] 等待元素可见：('css', "[role='alert'] p"), 最长等待时间: 15秒.
+2021-09-23 10:32:32 py39 INFO basepage.py[第61行] 元素 ('css', "[role='alert'] p") 可见并返回了元素对象
+2021-09-23 10:32:32 py39 INFO basepage.py[第130行] 获取元素：('css', "[role='alert'] p")的文本值：批量上架成功
+2021-09-23 10:32:35 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:32:35 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='视频课程管理']") 可见并返回了元素对象
+2021-09-23 10:32:36 py39 INFO basepage.py[第412行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(3)') 可见并可用，返回了元素对象
+2021-09-23 10:32:36 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(3)') 可见并返回了元素对象
+2021-09-23 10:32:37 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:32:37 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//span[@class='el-checkbox__inner'])[1]") 可见并可用，返回了元素对象
+2021-09-23 10:32:37 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[@class='el-checkbox__inner'])[1]") 可见并返回了元素对象
+2021-09-23 10:32:37 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 批量下架 ']") 可见并可用，返回了元素对象
+2021-09-23 10:32:37 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 批量下架 ']") 可见并返回了元素对象
+2021-09-23 10:32:37 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//span[text()='确 定'])[1]") 可见并可用，返回了元素对象
+2021-09-23 10:32:37 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='确 定'])[1]") 可见并返回了元素对象
+2021-09-23 10:32:37 py39 INFO basepage.py[第61行] 元素 ('css', "[role='alert'] p") 可见并返回了元素对象
+2021-09-23 10:32:37 py39 INFO basepage.py[第377行] 等待元素可见：('css', "[role='alert'] p"), 最长等待时间: 15秒.
+2021-09-23 10:32:37 py39 INFO basepage.py[第61行] 元素 ('css', "[role='alert'] p") 可见并返回了元素对象
+2021-09-23 10:32:37 py39 INFO basepage.py[第130行] 获取元素：('css', "[role='alert'] p")的文本值：批量下架成功
+2021-09-23 10:32:40 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:32:40 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='视频课程管理']") 可见并返回了元素对象
+2021-09-23 10:32:41 py39 INFO basepage.py[第412行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(3)') 可见并可用，返回了元素对象
+2021-09-23 10:32:41 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(3)') 可见并返回了元素对象
+2021-09-23 10:32:42 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:32:42 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//span[@class='el-checkbox__inner'])[1]") 可见并可用，返回了元素对象
+2021-09-23 10:32:42 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[@class='el-checkbox__inner'])[1]") 可见并返回了元素对象
+2021-09-23 10:32:42 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 批量设置单元 ']") 可见并可用，返回了元素对象
+2021-09-23 10:32:42 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 批量设置单元 ']") 可见并返回了元素对象
+2021-09-23 10:32:43 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//input[@placeholder='请选择课节所属单元'])[1]") 可见并可用，返回了元素对象
+2021-09-23 10:32:43 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@placeholder='请选择课节所属单元'])[1]") 可见并返回了元素对象
+2021-09-23 10:32:43 py39 INFO basepage.py[第412行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(1)') 可见并可用，返回了元素对象
+2021-09-23 10:32:43 py39 INFO basepage.py[第61行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(1)') 可见并返回了元素对象
+2021-09-23 10:32:43 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//input[@placeholder='请选择课节在单元内的顺序'])") 可见并可用，返回了元素对象
+2021-09-23 10:32:43 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@placeholder='请选择课节在单元内的顺序'])") 可见并返回了元素对象
+2021-09-23 10:32:44 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:32:44 py39 INFO basepage.py[第412行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(1)') 可见并可用，返回了元素对象
+2021-09-23 10:32:44 py39 INFO basepage.py[第61行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(1)') 可见并返回了元素对象
+2021-09-23 10:32:44 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//span[text()='确 定'])[3]") 可见并可用，返回了元素对象
+2021-09-23 10:32:44 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='确 定'])[3]") 可见并返回了元素对象
+2021-09-23 10:32:44 py39 INFO basepage.py[第61行] 元素 ('css', "[role='alert'] p") 可见并返回了元素对象
+2021-09-23 10:32:44 py39 INFO basepage.py[第377行] 等待元素可见：('css', "[role='alert'] p"), 最长等待时间: 15秒.
+2021-09-23 10:32:44 py39 INFO basepage.py[第61行] 元素 ('css', "[role='alert'] p") 可见并返回了元素对象
+2021-09-23 10:32:44 py39 INFO basepage.py[第130行] 获取元素：('css', "[role='alert'] p")的文本值：保存成功
+2021-09-23 10:32:47 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:32:47 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='视频课程管理']") 可见并返回了元素对象
+2021-09-23 10:32:48 py39 INFO basepage.py[第412行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(3)') 可见并可用，返回了元素对象
+2021-09-23 10:32:48 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(3)') 可见并返回了元素对象
+2021-09-23 10:32:49 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:32:49 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//span[@class='el-checkbox__inner'])[1]") 可见并可用，返回了元素对象
+2021-09-23 10:32:49 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[@class='el-checkbox__inner'])[1]") 可见并返回了元素对象
+2021-09-23 10:32:49 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 批量设置版权号 ']") 可见并可用，返回了元素对象
+2021-09-23 10:32:49 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 批量设置版权号 ']") 可见并返回了元素对象
+2021-09-23 10:32:49 py39 INFO basepage.py[第412行] 元素 ('css', "[placeholder='回车确认查询版权信息']") 可见并可用，返回了元素对象
+2021-09-23 10:32:49 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='回车确认查询版权信息']") 可见并返回了元素对象
+2021-09-23 10:32:49 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='回车确认查询版权信息']") 可见并返回了元素对象
+2021-09-23 10:32:50 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:32:50 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//span[text()='确 定'])[2]") 可见并可用，返回了元素对象
+2021-09-23 10:32:50 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='确 定'])[2]") 可见并返回了元素对象
+2021-09-23 10:32:51 py39 INFO basepage.py[第61行] 元素 ('css', "[role='alert'] p") 可见并返回了元素对象
+2021-09-23 10:32:51 py39 INFO basepage.py[第377行] 等待元素可见：('css', "[role='alert'] p"), 最长等待时间: 15秒.
+2021-09-23 10:32:51 py39 INFO basepage.py[第61行] 元素 ('css', "[role='alert'] p") 可见并返回了元素对象
+2021-09-23 10:32:51 py39 INFO basepage.py[第130行] 获取元素：('css', "[role='alert'] p")的文本值：设置成功
+2021-09-23 10:32:54 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:32:54 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='视频课程管理']") 可见并返回了元素对象
+2021-09-23 10:32:56 py39 INFO basepage.py[第461行] Sleep for 2 seconds
+2021-09-23 10:32:56 py39 INFO basepage.py[第412行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(1)') 可见并可用，返回了元素对象
+2021-09-23 10:32:56 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(1)') 可见并返回了元素对象
+2021-09-23 10:32:56 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='确 定']") 可见并可用，返回了元素对象
+2021-09-23 10:32:57 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='确 定']") 可见并返回了元素对象
+2021-09-23 10:32:57 py39 INFO basepage.py[第61行] 元素 ('css', '.el-notification .el-notification__title') 可见并返回了元素对象
+2021-09-23 10:32:57 py39 INFO basepage.py[第130行] 获取元素：('css', '.el-notification .el-notification__title')的文本值：
+2021-09-23 10:32:57 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:32:57 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='视频课程管理']") 可见并返回了元素对象
+2021-09-23 10:32:57 py39 INFO basepage.py[第412行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(5)') 可见并可用，返回了元素对象
+2021-09-23 10:32:57 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-body-wrapper tbody>tr:nth-child(1)>td:nth-child(17) span:nth-child(5)') 可见并返回了元素对象
+2021-09-23 10:32:57 py39 INFO basepage.py[第61行] 元素 ('css', '.el-message .el-message__content') 可见并返回了元素对象
+2021-09-23 10:32:57 py39 INFO basepage.py[第377行] 等待元素可见：('css', '.el-message .el-message__content'), 最长等待时间: 15秒.
+2021-09-23 10:32:57 py39 INFO basepage.py[第61行] 元素 ('css', '.el-message .el-message__content') 可见并返回了元素对象
+2021-09-23 10:32:57 py39 INFO basepage.py[第130行] 获取元素：('css', '.el-message .el-message__content')的文本值：复制成功
+2021-09-23 10:32:57 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:32:57 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='互动课程管理']") 可见并返回了元素对象
+2021-09-23 10:32:58 py39 INFO basepage.py[第61行] 元素 ('css', '.query-form form>div:nth-child(1) input') 可见并返回了元素对象
+2021-09-23 10:32:58 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='全部'])[2]") 可见并返回了元素对象
+2021-09-23 10:32:58 py39 INFO basepage.py[第412行] 元素 ('css', '.query-form form>div:nth-child(2) input') 可见并可用，返回了元素对象
+2021-09-23 10:32:58 py39 INFO basepage.py[第61行] 元素 ('css', '.query-form form>div:nth-child(2) input') 可见并返回了元素对象
+2021-09-23 10:32:59 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='全部'])[2]") 可见并返回了元素对象
+2021-09-23 10:32:59 py39 INFO basepage.py[第61行] 元素 ('css', '.query-form form>div:nth-child(3) input') 可见并返回了元素对象
+2021-09-23 10:32:59 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@class='el-input__inner'])[4]") 可见并返回了元素对象
+2021-09-23 10:32:59 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 查询 ']") 可见并返回了元素对象
+2021-09-23 10:33:01 py39 INFO basepage.py[第461行] Sleep for 2 seconds
+2021-09-23 10:33:01 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[1]") 可见并返回了元素对象
+2021-09-23 10:33:01 py39 INFO basepage.py[第130行] 获取元素：('xpath', "(//td[@colspan='1']//div)[1]")的文本值：90563
+2021-09-23 10:33:01 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@class='el-input__inner'])[4]") 可见并返回了元素对象
+2021-09-23 10:33:01 py39 INFO basepage.py[第299行] 鼠标移动到元素 ('xpath', "(//input[@class='el-input__inner'])[4]")
+2021-09-23 10:33:01 py39 INFO basepage.py[第61行] 元素 ('css', '.el-input__suffix .el-icon-circle-close') 可见并返回了元素对象
+2021-09-23 10:33:01 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:33:01 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='互动课程管理']") 可见并返回了元素对象
+2021-09-23 10:33:01 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动课程 ']") 可见并返回了元素对象
+2021-09-23 10:33:01 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:33:02 py39 INFO basepage.py[第61行] 元素 ('css', "input[placeholder='长度在 1 到 15 个字符']") 可见并返回了元素对象
+2021-09-23 10:33:02 py39 INFO basepage.py[第61行] 元素 ('css', ".el-col [accept='image/*']") 可见并返回了元素对象
+2021-09-23 10:33:02 py39 INFO basepage.py[第61行] 元素 ('css', ".el-col div:nth-child(3) [accept='image/gif,image/png']") 可见并返回了元素对象
+2021-09-23 10:33:03 py39 INFO basepage.py[第61行] 元素 ('css', ".el-col div:nth-child(4) [accept='image/gif,image/png']") 可见并返回了元素对象
+2021-09-23 10:33:04 py39 INFO basepage.py[第61行] 元素 ('css', ".el-col div:nth-child(5) [accept='image/gif,image/png']") 可见并返回了元素对象
+2021-09-23 10:33:05 py39 INFO basepage.py[第61行] 元素 ('css', ".el-col div:nth-child(6) [accept='image/gif,image/png']") 可见并返回了元素对象
+2021-09-23 10:33:06 py39 INFO basepage.py[第61行] 元素 ('css', "[accept='.mp3']") 可见并返回了元素对象
+2021-09-23 10:33:07 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='老师入口:']/following::span)[1]") 可见并返回了元素对象
+2021-09-23 10:33:07 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='是否使用宣传片:']/following::span)[1]") 可见并返回了元素对象
+2021-09-23 10:33:07 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='是否新品:']/following::span)[1]") 可见并返回了元素对象
+2021-09-23 10:33:08 py39 INFO basepage.py[第412行] 元素 ('xpath', "//*[@placeholder='请选择课程主题配色']") 可见并可用，返回了元素对象
+2021-09-23 10:33:08 py39 INFO basepage.py[第61行] 元素 ('xpath', "//*[@placeholder='请选择课程主题配色']") 可见并返回了元素对象
+2021-09-23 10:33:08 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='苹果绿']") 可见并可用，返回了元素对象
+2021-09-23 10:33:08 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='苹果绿']") 可见并返回了元素对象
+2021-09-23 10:33:08 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[starts-with(@placeholder, '请输入课程标签')]") 可见并返回了元素对象
+2021-09-23 10:33:08 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[starts-with(@placeholder, '请输入课程标签')]") 可见并返回了元素对象
+2021-09-23 10:33:08 py39 INFO basepage.py[第61行] 元素 ('xpath', "//label[text()='课程目标:']/following::textarea") 可见并返回了元素对象
+2021-09-23 10:33:08 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='建议输入21字以内']") 可见并返回了元素对象
+2021-09-23 10:33:09 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='基础订阅量']") 可见并返回了元素对象
+2021-09-23 10:33:09 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='长度不超过6个字']") 可见并返回了元素对象
+2021-09-23 10:33:09 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[starts-with(@placeholder, '请输入课程标签')]") 可见并返回了元素对象
+2021-09-23 10:33:09 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='原价:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:33:09 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='非会员价:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:33:09 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='VIP会员价:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:33:09 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 默认比例 ']") 可见并返回了元素对象
+2021-09-23 10:33:09 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[@placeholder='请选择']") 可见并返回了元素对象
+2021-09-23 10:33:09 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='更新']") 可见并返回了元素对象
+2021-09-23 10:33:09 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[@placeholder='请输入课程对应的APP版本号']") 可见并返回了元素对象
+2021-09-23 10:33:10 py39 INFO basepage.py[第61行] 元素 ('id', 'tab-2') 可见并返回了元素对象
+2021-09-23 10:33:10 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' markdown ']") 可见并返回了元素对象
+2021-09-23 10:33:10 py39 INFO basepage.py[第61行] 元素 ('xpath', "//textarea[@placeholder='开始编辑...']") 可见并返回了元素对象
+2021-09-23 10:33:10 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:33:11 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:33:11 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[1]") 可见并返回了元素对象
+2021-09-23 10:33:11 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "(//td[@colspan='1']//div)[1]"), 最长等待时间: 15秒.
+2021-09-23 10:33:11 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[1]") 可见并返回了元素对象
+2021-09-23 10:33:11 py39 INFO basepage.py[第130行] 获取元素：('xpath', "(//td[@colspan='1']//div)[1]")的文本值：90946
+2021-09-23 10:33:11 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:33:11 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='互动课程管理']") 可见并返回了元素对象
+2021-09-23 10:33:11 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动课程 ']") 可见并返回了元素对象
+2021-09-23 10:33:11 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:33:11 py39 INFO basepage.py[第61行] 元素 ('css', "input[placeholder='长度在 1 到 15 个字符']") 可见并返回了元素对象
+2021-09-23 10:33:12 py39 INFO basepage.py[第61行] 元素 ('css', ".el-col [accept='image/*']") 可见并返回了元素对象
+2021-09-23 10:33:12 py39 INFO basepage.py[第61行] 元素 ('css', ".el-col div:nth-child(3) [accept='image/gif,image/png']") 可见并返回了元素对象
+2021-09-23 10:33:13 py39 INFO basepage.py[第61行] 元素 ('css', ".el-col div:nth-child(4) [accept='image/gif,image/png']") 可见并返回了元素对象
+2021-09-23 10:33:14 py39 INFO basepage.py[第61行] 元素 ('css', ".el-col div:nth-child(5) [accept='image/gif,image/png']") 可见并返回了元素对象
+2021-09-23 10:33:15 py39 INFO basepage.py[第61行] 元素 ('css', ".el-col div:nth-child(6) [accept='image/gif,image/png']") 可见并返回了元素对象
+2021-09-23 10:33:16 py39 INFO basepage.py[第61行] 元素 ('css', "[accept='.mp3']") 可见并返回了元素对象
+2021-09-23 10:33:17 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='老师入口:']/following::span)[1]") 可见并返回了元素对象
+2021-09-23 10:33:17 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='是否使用宣传片:']/following::span)[1]") 可见并返回了元素对象
+2021-09-23 10:33:17 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='是否新品:']/following::span)[1]") 可见并返回了元素对象
+2021-09-23 10:33:17 py39 INFO basepage.py[第412行] 元素 ('xpath', "//*[@placeholder='请选择课程主题配色']") 可见并可用，返回了元素对象
+2021-09-23 10:33:17 py39 INFO basepage.py[第61行] 元素 ('xpath', "//*[@placeholder='请选择课程主题配色']") 可见并返回了元素对象
+2021-09-23 10:33:17 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='苹果绿']") 可见并可用，返回了元素对象
+2021-09-23 10:33:17 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='苹果绿']") 可见并返回了元素对象
+2021-09-23 10:33:17 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[starts-with(@placeholder, '请输入课程标签')]") 可见并返回了元素对象
+2021-09-23 10:33:18 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[starts-with(@placeholder, '请输入课程标签')]") 可见并返回了元素对象
+2021-09-23 10:33:18 py39 INFO basepage.py[第61行] 元素 ('xpath', "//label[text()='课程目标:']/following::textarea") 可见并返回了元素对象
+2021-09-23 10:33:18 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='建议输入21字以内']") 可见并返回了元素对象
+2021-09-23 10:33:18 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='基础订阅量']") 可见并返回了元素对象
+2021-09-23 10:33:18 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='长度不超过6个字']") 可见并返回了元素对象
+2021-09-23 10:33:18 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[starts-with(@placeholder, '请输入课程标签')]") 可见并返回了元素对象
+2021-09-23 10:33:18 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='原价:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:33:18 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='非会员价:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:33:19 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='VIP会员价:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:33:19 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 默认比例 ']") 可见并返回了元素对象
+2021-09-23 10:33:19 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='是否参加限免:']/following::span)[1]") 可见并返回了元素对象
+2021-09-23 10:33:19 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//input[@placeholder='开始日期'])[1]") 可见并可用，返回了元素对象
+2021-09-23 10:33:19 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@placeholder='开始日期'])[1]") 可见并返回了元素对象
+2021-09-23 10:33:19 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@placeholder='结束日期'])[1]") 可见并返回了元素对象
+2021-09-23 10:33:19 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//button[contains(@class,'el-button el-picker-panel__link-btn')]//span)[2]") 可见并返回了元素对象
+2021-09-23 10:33:19 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[@placeholder='请选择']") 可见并返回了元素对象
+2021-09-23 10:33:19 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='更新']") 可见并返回了元素对象
+2021-09-23 10:33:19 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[@placeholder='请输入课程对应的APP版本号']") 可见并返回了元素对象
+2021-09-23 10:33:20 py39 INFO basepage.py[第61行] 元素 ('id', 'tab-2') 可见并返回了元素对象
+2021-09-23 10:33:20 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' markdown ']") 可见并返回了元素对象
+2021-09-23 10:33:20 py39 INFO basepage.py[第61行] 元素 ('xpath', "//textarea[@placeholder='开始编辑...']") 可见并返回了元素对象
+2021-09-23 10:33:20 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:33:21 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:33:21 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[1]") 可见并返回了元素对象
+2021-09-23 10:33:21 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "(//td[@colspan='1']//div)[1]"), 最长等待时间: 15秒.
+2021-09-23 10:33:21 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[1]") 可见并返回了元素对象
+2021-09-23 10:33:21 py39 INFO basepage.py[第130行] 获取元素：('xpath', "(//td[@colspan='1']//div)[1]")的文本值：90947
+2021-09-23 10:33:21 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:33:21 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='互动课程管理']") 可见并返回了元素对象
+2021-09-23 10:33:21 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动课程 ']") 可见并返回了元素对象
+2021-09-23 10:33:21 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:33:22 py39 INFO basepage.py[第61行] 元素 ('css', "input[placeholder='长度在 1 到 15 个字符']") 可见并返回了元素对象
+2021-09-23 10:33:22 py39 INFO basepage.py[第61行] 元素 ('css', ".el-col [accept='image/*']") 可见并返回了元素对象
+2021-09-23 10:33:22 py39 INFO basepage.py[第61行] 元素 ('css', ".el-col div:nth-child(3) [accept='image/gif,image/png']") 可见并返回了元素对象
+2021-09-23 10:33:23 py39 INFO basepage.py[第61行] 元素 ('css', ".el-col div:nth-child(4) [accept='image/gif,image/png']") 可见并返回了元素对象
+2021-09-23 10:33:24 py39 INFO basepage.py[第61行] 元素 ('css', ".el-col div:nth-child(5) [accept='image/gif,image/png']") 可见并返回了元素对象
+2021-09-23 10:33:25 py39 INFO basepage.py[第61行] 元素 ('css', ".el-col div:nth-child(6) [accept='image/gif,image/png']") 可见并返回了元素对象
+2021-09-23 10:33:26 py39 INFO basepage.py[第61行] 元素 ('css', "[accept='.mp3']") 可见并返回了元素对象
+2021-09-23 10:33:27 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='老师入口:']/following::span)[1]") 可见并返回了元素对象
+2021-09-23 10:33:27 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='是否使用宣传片:']/following::span)[1]") 可见并返回了元素对象
+2021-09-23 10:33:27 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='是否新品:']/following::span)[1]") 可见并返回了元素对象
+2021-09-23 10:33:27 py39 INFO basepage.py[第412行] 元素 ('xpath', "//*[@placeholder='请选择课程主题配色']") 可见并可用，返回了元素对象
+2021-09-23 10:33:27 py39 INFO basepage.py[第61行] 元素 ('xpath', "//*[@placeholder='请选择课程主题配色']") 可见并返回了元素对象
+2021-09-23 10:33:27 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='苹果绿']") 可见并可用，返回了元素对象
+2021-09-23 10:33:27 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='苹果绿']") 可见并返回了元素对象
+2021-09-23 10:33:28 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[starts-with(@placeholder, '请输入课程标签')]") 可见并返回了元素对象
+2021-09-23 10:33:28 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[starts-with(@placeholder, '请输入课程标签')]") 可见并返回了元素对象
+2021-09-23 10:33:28 py39 INFO basepage.py[第61行] 元素 ('xpath', "//label[text()='课程目标:']/following::textarea") 可见并返回了元素对象
+2021-09-23 10:33:28 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='建议输入21字以内']") 可见并返回了元素对象
+2021-09-23 10:33:28 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='基础订阅量']") 可见并返回了元素对象
+2021-09-23 10:33:28 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='长度不超过6个字']") 可见并返回了元素对象
+2021-09-23 10:33:28 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[starts-with(@placeholder, '请输入课程标签')]") 可见并返回了元素对象
+2021-09-23 10:33:28 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 免费 ']") 可见并返回了元素对象
+2021-09-23 10:33:28 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[@placeholder='请选择']") 可见并返回了元素对象
+2021-09-23 10:33:29 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='更新']") 可见并返回了元素对象
+2021-09-23 10:33:29 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[@placeholder='请输入课程对应的APP版本号']") 可见并返回了元素对象
+2021-09-23 10:33:29 py39 INFO basepage.py[第61行] 元素 ('id', 'tab-2') 可见并返回了元素对象
+2021-09-23 10:33:29 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' markdown ']") 可见并返回了元素对象
+2021-09-23 10:33:29 py39 INFO basepage.py[第61行] 元素 ('xpath', "//textarea[@placeholder='开始编辑...']") 可见并返回了元素对象
+2021-09-23 10:33:29 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:33:30 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:33:30 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[1]") 可见并返回了元素对象
+2021-09-23 10:33:30 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "(//td[@colspan='1']//div)[1]"), 最长等待时间: 15秒.
+2021-09-23 10:33:30 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[1]") 可见并返回了元素对象
+2021-09-23 10:33:30 py39 INFO basepage.py[第130行] 获取元素：('xpath', "(//td[@colspan='1']//div)[1]")的文本值：90948
+2021-09-23 10:33:30 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:33:30 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='互动课程管理']") 可见并返回了元素对象
+2021-09-23 10:33:30 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-right tbody tr:nth-child(1) .el-button--info') 可见并返回了元素对象
+2021-09-23 10:33:31 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并可用，返回了元素对象
+2021-09-23 10:33:31 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并返回了元素对象
+2021-09-23 10:33:31 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:33:32 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并可用，返回了元素对象
+2021-09-23 10:33:32 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并返回了元素对象
+2021-09-23 10:33:32 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:33:32 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(1) input') 可见并返回了元素对象
+2021-09-23 10:33:32 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(2) input') 可见并返回了元素对象
+2021-09-23 10:33:32 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='确 定'])[1]") 可见并返回了元素对象
+2021-09-23 10:33:32 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:33:32 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "(//td[@colspan='1']//div)[5]"), 最长等待时间: 15秒.
+2021-09-23 10:33:32 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:33:32 py39 INFO basepage.py[第130行] 获取元素：('xpath', "(//td[@colspan='1']//div)[5]")的文本值：第一单元
+2021-09-23 10:33:32 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:33:32 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='互动课程管理']") 可见并返回了元素对象
+2021-09-23 10:33:33 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-right tbody tr:nth-child(1) .el-button--info') 可见并返回了元素对象
+2021-09-23 10:33:33 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并可用，返回了元素对象
+2021-09-23 10:33:33 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并返回了元素对象
+2021-09-23 10:33:33 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:33:33 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并可用，返回了元素对象
+2021-09-23 10:33:33 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并返回了元素对象
+2021-09-23 10:33:33 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:33:33 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(1) input') 可见并返回了元素对象
+2021-09-23 10:33:34 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(2) input') 可见并返回了元素对象
+2021-09-23 10:33:34 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='确 定'])[1]") 可见并返回了元素对象
+2021-09-23 10:33:34 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:33:34 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "(//td[@colspan='1']//div)[5]"), 最长等待时间: 15秒.
+2021-09-23 10:33:34 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:33:34 py39 INFO basepage.py[第130行] 获取元素：('xpath', "(//td[@colspan='1']//div)[5]")的文本值：第一单元
+2021-09-23 10:33:34 py39 INFO basepage.py[第474行] Click back on current page.
+2021-09-23 10:33:34 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动课节 ']") 可见并可用，返回了元素对象
+2021-09-23 10:33:34 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动课节 ']") 可见并返回了元素对象
+2021-09-23 10:33:34 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:33:34 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='建议输入15字以内']") 可见并返回了元素对象
+2021-09-23 10:33:34 py39 INFO basepage.py[第61行] 元素 ('xpath', "//div[@class='upload-icon-cont']//i[1]") 可见并返回了元素对象
+2021-09-23 10:33:36 py39 INFO basepage.py[第247行] 点击上传文件E:\NingmengbanWebUIAuto\data\img_coures\lesson_cover.png
+2021-09-23 10:33:40 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@placeholder='请选择'])[1]") 可见并返回了元素对象
+2021-09-23 10:33:40 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//span[starts-with(text(), '单元')])[last()]") 可见并可用，返回了元素对象
+2021-09-23 10:33:40 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[starts-with(text(), '单元')])[last()]") 可见并返回了元素对象
+2021-09-23 10:33:40 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:33:40 py39 INFO basepage.py[第61行] 元素 ('css', "[role='switch'] span") 可见并返回了元素对象
+2021-09-23 10:33:40 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:33:40 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='是否引导添加老师:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:33:40 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='提示引导']") 可见并可用，返回了元素对象
+2021-09-23 10:33:40 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='提示引导']") 可见并返回了元素对象
+2021-09-23 10:33:41 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='课节类型:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:33:41 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='混编课节']") 可见并返回了元素对象
+2021-09-23 10:33:41 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='版权号:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:33:41 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:33:41 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:33:42 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//p[text()='创建成功']"), 最长等待时间: 15秒.
+2021-09-23 10:33:42 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:33:42 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//p[text()='创建成功']")的文本值：创建成功
+2021-09-23 10:33:42 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:33:42 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='互动课程管理']") 可见并返回了元素对象
+2021-09-23 10:33:42 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-right tbody tr:nth-child(1) .el-button--info') 可见并返回了元素对象
+2021-09-23 10:33:43 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 互动课节文件管理 ']") 可见并可用，返回了元素对象
+2021-09-23 10:33:43 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 互动课节文件管理 ']") 可见并返回了元素对象
+2021-09-23 10:33:43 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:33:43 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//button[@type='button']//span)[2]") 可见并可用，返回了元素对象
+2021-09-23 10:33:43 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//button[@type='button']//span)[2]") 可见并返回了元素对象
+2021-09-23 10:33:45 py39 INFO basepage.py[第247行] 点击上传文件E:\NingmengbanWebUIAuto\data\mp4\source_video.mp4
+2021-09-23 10:33:49 py39 INFO basepage.py[第461行] Sleep for 0 seconds
+2021-09-23 10:33:49 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 开始上传 ']") 可见并可用，返回了元素对象
+2021-09-23 10:33:49 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 开始上传 ']") 可见并返回了元素对象
+2021-09-23 10:33:50 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='上传状态：文件上传完毕']") 可见并返回了元素对象
+2021-09-23 10:33:50 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//span[text()='上传状态：文件上传完毕']"), 最长等待时间: 15秒.
+2021-09-23 10:33:50 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='上传状态：文件上传完毕']") 可见并返回了元素对象
+2021-09-23 10:33:50 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//span[text()='上传状态：文件上传完毕']")的文本值：上传状态：文件上传完毕
+2021-09-23 10:33:50 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:33:50 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='互动课程管理']") 可见并返回了元素对象
+2021-09-23 10:33:51 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-right tbody tr:nth-child(1) .el-button--info') 可见并返回了元素对象
+2021-09-23 10:33:51 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并可用，返回了元素对象
+2021-09-23 10:33:51 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并返回了元素对象
+2021-09-23 10:33:51 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:33:52 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并可用，返回了元素对象
+2021-09-23 10:33:52 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并返回了元素对象
+2021-09-23 10:33:52 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:33:52 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(1) input') 可见并返回了元素对象
+2021-09-23 10:33:52 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(2) input') 可见并返回了元素对象
+2021-09-23 10:33:52 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='确 定'])[1]") 可见并返回了元素对象
+2021-09-23 10:33:52 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:33:52 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "(//td[@colspan='1']//div)[5]"), 最长等待时间: 15秒.
+2021-09-23 10:33:52 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:33:52 py39 INFO basepage.py[第130行] 获取元素：('xpath', "(//td[@colspan='1']//div)[5]")的文本值：第一单元
+2021-09-23 10:33:52 py39 INFO basepage.py[第474行] Click back on current page.
+2021-09-23 10:33:52 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动课节 ']") 可见并可用，返回了元素对象
+2021-09-23 10:33:52 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动课节 ']") 可见并返回了元素对象
+2021-09-23 10:33:52 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:33:52 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='建议输入15字以内']") 可见并返回了元素对象
+2021-09-23 10:33:52 py39 INFO basepage.py[第61行] 元素 ('xpath', "//div[@class='upload-icon-cont']//i[1]") 可见并返回了元素对象
+2021-09-23 10:33:54 py39 INFO basepage.py[第247行] 点击上传文件E:\NingmengbanWebUIAuto\data\img_coures\lesson_cover.png
+2021-09-23 10:33:58 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@placeholder='请选择'])[1]") 可见并返回了元素对象
+2021-09-23 10:33:58 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//span[starts-with(text(), '单元')])[last()]") 可见并可用，返回了元素对象
+2021-09-23 10:33:58 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[starts-with(text(), '单元')])[last()]") 可见并返回了元素对象
+2021-09-23 10:33:58 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:33:58 py39 INFO basepage.py[第61行] 元素 ('css', "[role='switch'] span") 可见并返回了元素对象
+2021-09-23 10:33:58 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:33:58 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='是否引导添加老师:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:33:58 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='提示引导']") 可见并可用，返回了元素对象
+2021-09-23 10:33:58 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='提示引导']") 可见并返回了元素对象
+2021-09-23 10:33:58 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='课节类型:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:33:59 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='混编课节']") 可见并返回了元素对象
+2021-09-23 10:33:59 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='版权号:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:33:59 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:33:59 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:34:00 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//p[text()='创建成功']"), 最长等待时间: 15秒.
+2021-09-23 10:34:00 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:34:00 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//p[text()='创建成功']")的文本值：创建成功
+2021-09-23 10:34:00 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()=' 编辑 '])[last()]") 可见并返回了元素对象
+2021-09-23 10:34:00 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//button[@type='button']//i)[4]") 可见并可用，返回了元素对象
+2021-09-23 10:34:00 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//button[@type='button']//i)[4]") 可见并返回了元素对象
+2021-09-23 10:34:00 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='环节名称:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:00 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='看一看']") 可见并可用，返回了元素对象
+2021-09-23 10:34:00 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='看一看']") 可见并返回了元素对象
+2021-09-23 10:34:01 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//label[text()='环节类型:']/following::input)[1]") 可见并可用，返回了元素对象
+2021-09-23 10:34:01 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='环节类型:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:02 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:34:02 py39 INFO basepage.py[第412行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(6)') 可见并可用，返回了元素对象
+2021-09-23 10:34:02 py39 INFO basepage.py[第61行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(6)') 可见并返回了元素对象
+2021-09-23 10:34:02 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:34:03 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:34:03 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:34:03 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//p[text()='创建成功']"), 最长等待时间: 15秒.
+2021-09-23 10:34:03 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:34:03 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//p[text()='创建成功']")的文本值：创建成功
+2021-09-23 10:34:03 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:34:03 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='互动课程管理']") 可见并返回了元素对象
+2021-09-23 10:34:03 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-right tbody tr:nth-child(1) .el-button--info') 可见并返回了元素对象
+2021-09-23 10:34:04 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并可用，返回了元素对象
+2021-09-23 10:34:04 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并返回了元素对象
+2021-09-23 10:34:04 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:04 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并可用，返回了元素对象
+2021-09-23 10:34:04 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并返回了元素对象
+2021-09-23 10:34:04 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:04 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(1) input') 可见并返回了元素对象
+2021-09-23 10:34:04 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(2) input') 可见并返回了元素对象
+2021-09-23 10:34:04 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='确 定'])[1]") 可见并返回了元素对象
+2021-09-23 10:34:04 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:34:04 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "(//td[@colspan='1']//div)[5]"), 最长等待时间: 15秒.
+2021-09-23 10:34:04 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:34:04 py39 INFO basepage.py[第130行] 获取元素：('xpath', "(//td[@colspan='1']//div)[5]")的文本值：第一单元
+2021-09-23 10:34:04 py39 INFO basepage.py[第474行] Click back on current page.
+2021-09-23 10:34:04 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动课节 ']") 可见并可用，返回了元素对象
+2021-09-23 10:34:04 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动课节 ']") 可见并返回了元素对象
+2021-09-23 10:34:04 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:04 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='建议输入15字以内']") 可见并返回了元素对象
+2021-09-23 10:34:05 py39 INFO basepage.py[第61行] 元素 ('xpath', "//div[@class='upload-icon-cont']//i[1]") 可见并返回了元素对象
+2021-09-23 10:34:06 py39 INFO basepage.py[第247行] 点击上传文件E:\NingmengbanWebUIAuto\data\img_coures\lesson_cover.png
+2021-09-23 10:34:10 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@placeholder='请选择'])[1]") 可见并返回了元素对象
+2021-09-23 10:34:11 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//span[starts-with(text(), '单元')])[last()]") 可见并可用，返回了元素对象
+2021-09-23 10:34:11 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[starts-with(text(), '单元')])[last()]") 可见并返回了元素对象
+2021-09-23 10:34:11 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:11 py39 INFO basepage.py[第61行] 元素 ('css', "[role='switch'] span") 可见并返回了元素对象
+2021-09-23 10:34:11 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:11 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='是否引导添加老师:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:12 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='提示引导']") 可见并可用，返回了元素对象
+2021-09-23 10:34:12 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='提示引导']") 可见并返回了元素对象
+2021-09-23 10:34:12 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='课节类型:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:12 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='混编课节']") 可见并返回了元素对象
+2021-09-23 10:34:12 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='版权号:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:12 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:34:13 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:34:13 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//p[text()='创建成功']"), 最长等待时间: 15秒.
+2021-09-23 10:34:13 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:34:13 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//p[text()='创建成功']")的文本值：创建成功
+2021-09-23 10:34:13 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()=' 编辑 '])[last()]") 可见并返回了元素对象
+2021-09-23 10:34:14 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//button[@type='button']//i)[4]") 可见并可用，返回了元素对象
+2021-09-23 10:34:14 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//button[@type='button']//i)[4]") 可见并返回了元素对象
+2021-09-23 10:34:14 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='环节名称:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:15 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='看一看']") 可见并可用，返回了元素对象
+2021-09-23 10:34:15 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='看一看']") 可见并返回了元素对象
+2021-09-23 10:34:15 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//label[text()='环节类型:']/following::input)[1]") 可见并可用，返回了元素对象
+2021-09-23 10:34:15 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='环节类型:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:16 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:34:16 py39 INFO basepage.py[第412行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(2)') 可见并可用，返回了元素对象
+2021-09-23 10:34:16 py39 INFO basepage.py[第61行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(2)') 可见并返回了元素对象
+2021-09-23 10:34:16 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:34:17 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:34:17 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:34:17 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//p[text()='创建成功']"), 最长等待时间: 15秒.
+2021-09-23 10:34:17 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:34:17 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//p[text()='创建成功']")的文本值：创建成功
+2021-09-23 10:34:17 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:34:17 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='互动课程管理']") 可见并返回了元素对象
+2021-09-23 10:34:17 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-right tbody tr:nth-child(1) .el-button--info') 可见并返回了元素对象
+2021-09-23 10:34:18 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并可用，返回了元素对象
+2021-09-23 10:34:18 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并返回了元素对象
+2021-09-23 10:34:18 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:18 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并可用，返回了元素对象
+2021-09-23 10:34:18 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并返回了元素对象
+2021-09-23 10:34:18 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:18 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(1) input') 可见并返回了元素对象
+2021-09-23 10:34:18 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(2) input') 可见并返回了元素对象
+2021-09-23 10:34:19 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='确 定'])[1]") 可见并返回了元素对象
+2021-09-23 10:34:19 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:34:19 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "(//td[@colspan='1']//div)[5]"), 最长等待时间: 15秒.
+2021-09-23 10:34:19 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:34:19 py39 INFO basepage.py[第130行] 获取元素：('xpath', "(//td[@colspan='1']//div)[5]")的文本值：第一单元
+2021-09-23 10:34:19 py39 INFO basepage.py[第474行] Click back on current page.
+2021-09-23 10:34:19 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动课节 ']") 可见并可用，返回了元素对象
+2021-09-23 10:34:19 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动课节 ']") 可见并返回了元素对象
+2021-09-23 10:34:19 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:19 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='建议输入15字以内']") 可见并返回了元素对象
+2021-09-23 10:34:19 py39 INFO basepage.py[第61行] 元素 ('xpath', "//div[@class='upload-icon-cont']//i[1]") 可见并返回了元素对象
+2021-09-23 10:34:20 py39 INFO basepage.py[第247行] 点击上传文件E:\NingmengbanWebUIAuto\data\img_coures\lesson_cover.png
+2021-09-23 10:34:25 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@placeholder='请选择'])[1]") 可见并返回了元素对象
+2021-09-23 10:34:25 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//span[starts-with(text(), '单元')])[last()]") 可见并可用，返回了元素对象
+2021-09-23 10:34:25 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[starts-with(text(), '单元')])[last()]") 可见并返回了元素对象
+2021-09-23 10:34:25 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:25 py39 INFO basepage.py[第61行] 元素 ('css', "[role='switch'] span") 可见并返回了元素对象
+2021-09-23 10:34:25 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:25 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='是否引导添加老师:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:25 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='提示引导']") 可见并可用，返回了元素对象
+2021-09-23 10:34:25 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='提示引导']") 可见并返回了元素对象
+2021-09-23 10:34:25 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='课节类型:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:25 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='混编课节']") 可见并返回了元素对象
+2021-09-23 10:34:25 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='版权号:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:25 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:34:26 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:34:26 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//p[text()='创建成功']"), 最长等待时间: 15秒.
+2021-09-23 10:34:26 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:34:26 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//p[text()='创建成功']")的文本值：创建成功
+2021-09-23 10:34:26 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()=' 编辑 '])[last()]") 可见并返回了元素对象
+2021-09-23 10:34:27 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//button[@type='button']//i)[4]") 可见并可用，返回了元素对象
+2021-09-23 10:34:27 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//button[@type='button']//i)[4]") 可见并返回了元素对象
+2021-09-23 10:34:27 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='环节名称:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:27 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='说一说']") 可见并可用，返回了元素对象
+2021-09-23 10:34:27 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='说一说']") 可见并返回了元素对象
+2021-09-23 10:34:27 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//label[text()='环节类型:']/following::input)[1]") 可见并可用，返回了元素对象
+2021-09-23 10:34:27 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='环节类型:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:28 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:34:28 py39 INFO basepage.py[第412行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(3)') 可见并可用，返回了元素对象
+2021-09-23 10:34:28 py39 INFO basepage.py[第61行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(3)') 可见并返回了元素对象
+2021-09-23 10:34:28 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:34:29 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:34:29 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:34:29 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//p[text()='创建成功']"), 最长等待时间: 15秒.
+2021-09-23 10:34:29 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:34:29 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//p[text()='创建成功']")的文本值：创建成功
+2021-09-23 10:34:29 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:34:29 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='互动课程管理']") 可见并返回了元素对象
+2021-09-23 10:34:30 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-right tbody tr:nth-child(1) .el-button--info') 可见并返回了元素对象
+2021-09-23 10:34:30 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并可用，返回了元素对象
+2021-09-23 10:34:30 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并返回了元素对象
+2021-09-23 10:34:30 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:30 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并可用，返回了元素对象
+2021-09-23 10:34:30 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并返回了元素对象
+2021-09-23 10:34:30 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:31 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(1) input') 可见并返回了元素对象
+2021-09-23 10:34:31 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(2) input') 可见并返回了元素对象
+2021-09-23 10:34:31 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='确 定'])[1]") 可见并返回了元素对象
+2021-09-23 10:34:31 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:34:31 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "(//td[@colspan='1']//div)[5]"), 最长等待时间: 15秒.
+2021-09-23 10:34:31 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:34:31 py39 INFO basepage.py[第130行] 获取元素：('xpath', "(//td[@colspan='1']//div)[5]")的文本值：第一单元
+2021-09-23 10:34:31 py39 INFO basepage.py[第474行] Click back on current page.
+2021-09-23 10:34:31 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动课节 ']") 可见并可用，返回了元素对象
+2021-09-23 10:34:31 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动课节 ']") 可见并返回了元素对象
+2021-09-23 10:34:31 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:31 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='建议输入15字以内']") 可见并返回了元素对象
+2021-09-23 10:34:31 py39 INFO basepage.py[第61行] 元素 ('xpath', "//div[@class='upload-icon-cont']//i[1]") 可见并返回了元素对象
+2021-09-23 10:34:33 py39 INFO basepage.py[第247行] 点击上传文件E:\NingmengbanWebUIAuto\data\img_coures\lesson_cover.png
+2021-09-23 10:34:37 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@placeholder='请选择'])[1]") 可见并返回了元素对象
+2021-09-23 10:34:37 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//span[starts-with(text(), '单元')])[last()]") 可见并可用，返回了元素对象
+2021-09-23 10:34:37 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[starts-with(text(), '单元')])[last()]") 可见并返回了元素对象
+2021-09-23 10:34:37 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:37 py39 INFO basepage.py[第61行] 元素 ('css', "[role='switch'] span") 可见并返回了元素对象
+2021-09-23 10:34:37 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:37 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='是否引导添加老师:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:37 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='提示引导']") 可见并可用，返回了元素对象
+2021-09-23 10:34:37 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='提示引导']") 可见并返回了元素对象
+2021-09-23 10:34:37 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='课节类型:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:38 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='混编课节']") 可见并返回了元素对象
+2021-09-23 10:34:38 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='版权号:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:38 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:34:38 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:34:39 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//p[text()='创建成功']"), 最长等待时间: 15秒.
+2021-09-23 10:34:39 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:34:39 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//p[text()='创建成功']")的文本值：创建成功
+2021-09-23 10:34:39 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()=' 编辑 '])[last()]") 可见并返回了元素对象
+2021-09-23 10:34:39 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//button[@type='button']//i)[4]") 可见并可用，返回了元素对象
+2021-09-23 10:34:39 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//button[@type='button']//i)[4]") 可见并返回了元素对象
+2021-09-23 10:34:39 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='环节名称:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:39 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='说一说']") 可见并可用，返回了元素对象
+2021-09-23 10:34:39 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='说一说']") 可见并返回了元素对象
+2021-09-23 10:34:39 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//label[text()='环节类型:']/following::input)[1]") 可见并可用，返回了元素对象
+2021-09-23 10:34:39 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='环节类型:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:41 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:34:41 py39 INFO basepage.py[第412行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(9)') 可见并可用，返回了元素对象
+2021-09-23 10:34:41 py39 INFO basepage.py[第61行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(9)') 可见并返回了元素对象
+2021-09-23 10:34:41 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:34:42 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:34:42 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:34:42 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//p[text()='创建成功']"), 最长等待时间: 15秒.
+2021-09-23 10:34:42 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:34:42 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//p[text()='创建成功']")的文本值：创建成功
+2021-09-23 10:34:42 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:34:42 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='互动课程管理']") 可见并返回了元素对象
+2021-09-23 10:34:42 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-right tbody tr:nth-child(1) .el-button--info') 可见并返回了元素对象
+2021-09-23 10:34:43 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并可用，返回了元素对象
+2021-09-23 10:34:43 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并返回了元素对象
+2021-09-23 10:34:43 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:43 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并可用，返回了元素对象
+2021-09-23 10:34:43 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并返回了元素对象
+2021-09-23 10:34:43 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:43 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(1) input') 可见并返回了元素对象
+2021-09-23 10:34:43 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(2) input') 可见并返回了元素对象
+2021-09-23 10:34:43 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='确 定'])[1]") 可见并返回了元素对象
+2021-09-23 10:34:43 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:34:43 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "(//td[@colspan='1']//div)[5]"), 最长等待时间: 15秒.
+2021-09-23 10:34:43 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:34:43 py39 INFO basepage.py[第130行] 获取元素：('xpath', "(//td[@colspan='1']//div)[5]")的文本值：第一单元
+2021-09-23 10:34:43 py39 INFO basepage.py[第474行] Click back on current page.
+2021-09-23 10:34:43 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动课节 ']") 可见并可用，返回了元素对象
+2021-09-23 10:34:43 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动课节 ']") 可见并返回了元素对象
+2021-09-23 10:34:43 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:43 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='建议输入15字以内']") 可见并返回了元素对象
+2021-09-23 10:34:44 py39 INFO basepage.py[第61行] 元素 ('xpath', "//div[@class='upload-icon-cont']//i[1]") 可见并返回了元素对象
+2021-09-23 10:34:45 py39 INFO basepage.py[第247行] 点击上传文件E:\NingmengbanWebUIAuto\data\img_coures\lesson_cover.png
+2021-09-23 10:34:49 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@placeholder='请选择'])[1]") 可见并返回了元素对象
+2021-09-23 10:34:49 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//span[starts-with(text(), '单元')])[last()]") 可见并可用，返回了元素对象
+2021-09-23 10:34:50 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[starts-with(text(), '单元')])[last()]") 可见并返回了元素对象
+2021-09-23 10:34:50 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:50 py39 INFO basepage.py[第61行] 元素 ('css', "[role='switch'] span") 可见并返回了元素对象
+2021-09-23 10:34:50 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:50 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='是否引导添加老师:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:50 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='提示引导']") 可见并可用，返回了元素对象
+2021-09-23 10:34:50 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='提示引导']") 可见并返回了元素对象
+2021-09-23 10:34:50 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='课节类型:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:50 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='混编课节']") 可见并返回了元素对象
+2021-09-23 10:34:50 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='版权号:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:50 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:34:50 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:34:51 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//p[text()='创建成功']"), 最长等待时间: 15秒.
+2021-09-23 10:34:51 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:34:51 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//p[text()='创建成功']")的文本值：创建成功
+2021-09-23 10:34:51 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()=' 编辑 '])[last()]") 可见并返回了元素对象
+2021-09-23 10:34:51 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//button[@type='button']//i)[4]") 可见并可用，返回了元素对象
+2021-09-23 10:34:51 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//button[@type='button']//i)[4]") 可见并返回了元素对象
+2021-09-23 10:34:51 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='环节名称:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:52 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='练一练']") 可见并可用，返回了元素对象
+2021-09-23 10:34:52 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='练一练']") 可见并返回了元素对象
+2021-09-23 10:34:52 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//label[text()='环节类型:']/following::input)[1]") 可见并可用，返回了元素对象
+2021-09-23 10:34:52 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='环节类型:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:34:53 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:34:53 py39 INFO basepage.py[第412行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(4)') 可见并可用，返回了元素对象
+2021-09-23 10:34:53 py39 INFO basepage.py[第61行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(4)') 可见并返回了元素对象
+2021-09-23 10:34:53 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:34:54 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:34:54 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:34:54 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//p[text()='创建成功']"), 最长等待时间: 15秒.
+2021-09-23 10:34:54 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:34:54 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//p[text()='创建成功']")的文本值：创建成功
+2021-09-23 10:34:54 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:34:54 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='互动课程管理']") 可见并返回了元素对象
+2021-09-23 10:34:54 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-right tbody tr:nth-child(1) .el-button--info') 可见并返回了元素对象
+2021-09-23 10:34:55 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并可用，返回了元素对象
+2021-09-23 10:34:55 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并返回了元素对象
+2021-09-23 10:34:55 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:55 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并可用，返回了元素对象
+2021-09-23 10:34:55 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并返回了元素对象
+2021-09-23 10:34:55 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:55 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(1) input') 可见并返回了元素对象
+2021-09-23 10:34:55 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(2) input') 可见并返回了元素对象
+2021-09-23 10:34:55 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='确 定'])[1]") 可见并返回了元素对象
+2021-09-23 10:34:55 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:34:55 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "(//td[@colspan='1']//div)[5]"), 最长等待时间: 15秒.
+2021-09-23 10:34:55 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:34:55 py39 INFO basepage.py[第130行] 获取元素：('xpath', "(//td[@colspan='1']//div)[5]")的文本值：第一单元
+2021-09-23 10:34:55 py39 INFO basepage.py[第474行] Click back on current page.
+2021-09-23 10:34:56 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动课节 ']") 可见并可用，返回了元素对象
+2021-09-23 10:34:56 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动课节 ']") 可见并返回了元素对象
+2021-09-23 10:34:56 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:34:56 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='建议输入15字以内']") 可见并返回了元素对象
+2021-09-23 10:34:56 py39 INFO basepage.py[第61行] 元素 ('xpath', "//div[@class='upload-icon-cont']//i[1]") 可见并返回了元素对象
+2021-09-23 10:34:57 py39 INFO basepage.py[第247行] 点击上传文件E:\NingmengbanWebUIAuto\data\img_coures\lesson_cover.png
+2021-09-23 10:35:02 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@placeholder='请选择'])[1]") 可见并返回了元素对象
+2021-09-23 10:35:02 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//span[starts-with(text(), '单元')])[last()]") 可见并可用，返回了元素对象
+2021-09-23 10:35:02 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[starts-with(text(), '单元')])[last()]") 可见并返回了元素对象
+2021-09-23 10:35:02 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:35:02 py39 INFO basepage.py[第61行] 元素 ('css', "[role='switch'] span") 可见并返回了元素对象
+2021-09-23 10:35:02 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:35:02 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='是否引导添加老师:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:35:02 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='提示引导']") 可见并可用，返回了元素对象
+2021-09-23 10:35:02 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='提示引导']") 可见并返回了元素对象
+2021-09-23 10:35:02 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='课节类型:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:35:02 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='混编课节']") 可见并返回了元素对象
+2021-09-23 10:35:02 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='版权号:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:35:02 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:35:03 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:35:03 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//p[text()='创建成功']"), 最长等待时间: 15秒.
+2021-09-23 10:35:03 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:35:03 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//p[text()='创建成功']")的文本值：创建成功
+2021-09-23 10:35:03 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()=' 编辑 '])[last()]") 可见并返回了元素对象
+2021-09-23 10:35:03 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//button[@type='button']//i)[4]") 可见并可用，返回了元素对象
+2021-09-23 10:35:03 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//button[@type='button']//i)[4]") 可见并返回了元素对象
+2021-09-23 10:35:04 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='环节名称:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:35:04 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='玩一玩']") 可见并可用，返回了元素对象
+2021-09-23 10:35:04 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='玩一玩']") 可见并返回了元素对象
+2021-09-23 10:35:04 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//label[text()='环节类型:']/following::input)[1]") 可见并可用，返回了元素对象
+2021-09-23 10:35:04 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='环节类型:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:35:05 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:35:05 py39 INFO basepage.py[第412行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(5)') 可见并可用，返回了元素对象
+2021-09-23 10:35:05 py39 INFO basepage.py[第61行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(5)') 可见并返回了元素对象
+2021-09-23 10:35:05 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:35:06 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:35:06 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:35:06 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//p[text()='创建成功']"), 最长等待时间: 15秒.
+2021-09-23 10:35:06 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:35:06 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//p[text()='创建成功']")的文本值：创建成功
+2021-09-23 10:35:06 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:35:06 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='互动课程管理']") 可见并返回了元素对象
+2021-09-23 10:35:07 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-right tbody tr:nth-child(1) .el-button--info') 可见并返回了元素对象
+2021-09-23 10:35:07 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并可用，返回了元素对象
+2021-09-23 10:35:07 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并返回了元素对象
+2021-09-23 10:35:07 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:35:07 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并可用，返回了元素对象
+2021-09-23 10:35:07 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并返回了元素对象
+2021-09-23 10:35:07 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:35:07 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(1) input') 可见并返回了元素对象
+2021-09-23 10:35:07 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(2) input') 可见并返回了元素对象
+2021-09-23 10:35:08 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='确 定'])[1]") 可见并返回了元素对象
+2021-09-23 10:35:08 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:35:08 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "(//td[@colspan='1']//div)[5]"), 最长等待时间: 15秒.
+2021-09-23 10:35:08 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:35:08 py39 INFO basepage.py[第130行] 获取元素：('xpath', "(//td[@colspan='1']//div)[5]")的文本值：第一单元
+2021-09-23 10:35:08 py39 INFO basepage.py[第474行] Click back on current page.
+2021-09-23 10:35:08 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动课节 ']") 可见并可用，返回了元素对象
+2021-09-23 10:35:08 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动课节 ']") 可见并返回了元素对象
+2021-09-23 10:35:08 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:35:08 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='建议输入15字以内']") 可见并返回了元素对象
+2021-09-23 10:35:08 py39 INFO basepage.py[第61行] 元素 ('xpath', "//div[@class='upload-icon-cont']//i[1]") 可见并返回了元素对象
+2021-09-23 10:35:09 py39 INFO basepage.py[第247行] 点击上传文件E:\NingmengbanWebUIAuto\data\img_coures\lesson_cover.png
+2021-09-23 10:35:14 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@placeholder='请选择'])[1]") 可见并返回了元素对象
+2021-09-23 10:35:14 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//span[starts-with(text(), '单元')])[last()]") 可见并可用，返回了元素对象
+2021-09-23 10:35:14 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[starts-with(text(), '单元')])[last()]") 可见并返回了元素对象
+2021-09-23 10:35:14 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:35:14 py39 INFO basepage.py[第61行] 元素 ('css', "[role='switch'] span") 可见并返回了元素对象
+2021-09-23 10:35:14 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:35:14 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='是否引导添加老师:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:35:14 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='提示引导']") 可见并可用，返回了元素对象
+2021-09-23 10:35:14 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='提示引导']") 可见并返回了元素对象
+2021-09-23 10:35:14 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='课节类型:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:35:14 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='混编课节']") 可见并返回了元素对象
+2021-09-23 10:35:14 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='版权号:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:35:14 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:35:15 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:35:15 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//p[text()='创建成功']"), 最长等待时间: 15秒.
+2021-09-23 10:35:15 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:35:15 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//p[text()='创建成功']")的文本值：创建成功
+2021-09-23 10:35:15 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()=' 编辑 '])[last()]") 可见并返回了元素对象
+2021-09-23 10:35:16 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//button[@type='button']//i)[4]") 可见并可用，返回了元素对象
+2021-09-23 10:35:16 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//button[@type='button']//i)[4]") 可见并返回了元素对象
+2021-09-23 10:35:16 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='环节名称:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:35:16 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='玩一玩']") 可见并可用，返回了元素对象
+2021-09-23 10:35:16 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='玩一玩']") 可见并返回了元素对象
+2021-09-23 10:35:16 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//label[text()='环节类型:']/following::input)[1]") 可见并可用，返回了元素对象
+2021-09-23 10:35:16 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='环节类型:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:35:17 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:35:17 py39 INFO basepage.py[第412行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(10)') 可见并可用，返回了元素对象
+2021-09-23 10:35:17 py39 INFO basepage.py[第61行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(10)') 可见并返回了元素对象
+2021-09-23 10:35:17 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:35:18 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:35:18 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:35:18 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//p[text()='创建成功']"), 最长等待时间: 15秒.
+2021-09-23 10:35:18 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:35:18 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//p[text()='创建成功']")的文本值：创建成功
+2021-09-23 10:35:18 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:35:18 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='互动课程管理']") 可见并返回了元素对象
+2021-09-23 10:35:19 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-right tbody tr:nth-child(1) .el-button--info') 可见并返回了元素对象
+2021-09-23 10:35:19 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并可用，返回了元素对象
+2021-09-23 10:35:19 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并返回了元素对象
+2021-09-23 10:35:19 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:35:20 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并可用，返回了元素对象
+2021-09-23 10:35:20 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并返回了元素对象
+2021-09-23 10:35:20 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:35:20 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(1) input') 可见并返回了元素对象
+2021-09-23 10:35:20 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(2) input') 可见并返回了元素对象
+2021-09-23 10:35:20 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='确 定'])[1]") 可见并返回了元素对象
+2021-09-23 10:35:20 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:35:20 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "(//td[@colspan='1']//div)[5]"), 最长等待时间: 15秒.
+2021-09-23 10:35:20 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:35:20 py39 INFO basepage.py[第130行] 获取元素：('xpath', "(//td[@colspan='1']//div)[5]")的文本值：第一单元
+2021-09-23 10:35:21 py39 INFO basepage.py[第474行] Click back on current page.
+2021-09-23 10:35:21 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动课节 ']") 可见并可用，返回了元素对象
+2021-09-23 10:35:21 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动课节 ']") 可见并返回了元素对象
+2021-09-23 10:35:21 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:35:21 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='建议输入15字以内']") 可见并返回了元素对象
+2021-09-23 10:35:21 py39 INFO basepage.py[第61行] 元素 ('xpath', "//div[@class='upload-icon-cont']//i[1]") 可见并返回了元素对象
+2021-09-23 10:35:22 py39 INFO basepage.py[第247行] 点击上传文件E:\NingmengbanWebUIAuto\data\img_coures\lesson_cover.png
+2021-09-23 10:35:27 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@placeholder='请选择'])[1]") 可见并返回了元素对象
+2021-09-23 10:35:27 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//span[starts-with(text(), '单元')])[last()]") 可见并可用，返回了元素对象
+2021-09-23 10:35:27 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[starts-with(text(), '单元')])[last()]") 可见并返回了元素对象
+2021-09-23 10:35:27 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:35:27 py39 INFO basepage.py[第61行] 元素 ('css', "[role='switch'] span") 可见并返回了元素对象
+2021-09-23 10:35:27 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:35:27 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='是否引导添加老师:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:35:28 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='提示引导']") 可见并可用，返回了元素对象
+2021-09-23 10:35:28 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='提示引导']") 可见并返回了元素对象
+2021-09-23 10:35:28 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='课节类型:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:35:28 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='混编课节']") 可见并返回了元素对象
+2021-09-23 10:35:28 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='版权号:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:35:28 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:35:29 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:35:29 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//p[text()='创建成功']"), 最长等待时间: 15秒.
+2021-09-23 10:35:29 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:35:29 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//p[text()='创建成功']")的文本值：创建成功
+2021-09-23 10:35:29 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()=' 编辑 '])[last()]") 可见并返回了元素对象
+2021-09-23 10:35:30 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//button[@type='button']//i)[4]") 可见并可用，返回了元素对象
+2021-09-23 10:35:30 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//button[@type='button']//i)[4]") 可见并返回了元素对象
+2021-09-23 10:35:30 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='环节名称:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:35:31 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='玩一玩']") 可见并可用，返回了元素对象
+2021-09-23 10:35:31 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='玩一玩']") 可见并返回了元素对象
+2021-09-23 10:35:31 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//label[text()='环节类型:']/following::input)[1]") 可见并可用，返回了元素对象
+2021-09-23 10:35:31 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='环节类型:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:35:32 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:35:32 py39 INFO basepage.py[第412行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(7)') 可见并可用，返回了元素对象
+2021-09-23 10:35:32 py39 INFO basepage.py[第61行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(7)') 可见并返回了元素对象
+2021-09-23 10:35:32 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:35:33 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:35:33 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:35:33 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//p[text()='创建成功']"), 最长等待时间: 15秒.
+2021-09-23 10:35:33 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:35:33 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//p[text()='创建成功']")的文本值：创建成功
+2021-09-23 10:35:33 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='内容管理']") 可见并返回了元素对象
+2021-09-23 10:35:33 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='互动课程管理']") 可见并返回了元素对象
+2021-09-23 10:35:33 py39 INFO basepage.py[第61行] 元素 ('css', '.el-table__fixed-right tbody tr:nth-child(1) .el-button--info') 可见并返回了元素对象
+2021-09-23 10:35:34 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并可用，返回了元素对象
+2021-09-23 10:35:34 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 互动单元管理 ']") 可见并返回了元素对象
+2021-09-23 10:35:34 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:35:34 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并可用，返回了元素对象
+2021-09-23 10:35:34 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动单元 ']") 可见并返回了元素对象
+2021-09-23 10:35:34 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:35:34 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(1) input') 可见并返回了元素对象
+2021-09-23 10:35:34 py39 INFO basepage.py[第61行] 元素 ('css', 'form>div:nth-child(2) input') 可见并返回了元素对象
+2021-09-23 10:35:34 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()='确 定'])[1]") 可见并返回了元素对象
+2021-09-23 10:35:34 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:35:35 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "(//td[@colspan='1']//div)[5]"), 最长等待时间: 15秒.
+2021-09-23 10:35:35 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//td[@colspan='1']//div)[5]") 可见并返回了元素对象
+2021-09-23 10:35:35 py39 INFO basepage.py[第130行] 获取元素：('xpath', "(//td[@colspan='1']//div)[5]")的文本值：第一单元
+2021-09-23 10:35:35 py39 INFO basepage.py[第474行] Click back on current page.
+2021-09-23 10:35:35 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()=' 新增互动课节 ']") 可见并可用，返回了元素对象
+2021-09-23 10:35:35 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 新增互动课节 ']") 可见并返回了元素对象
+2021-09-23 10:35:35 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:35:35 py39 INFO basepage.py[第61行] 元素 ('css', "[placeholder='建议输入15字以内']") 可见并返回了元素对象
+2021-09-23 10:35:35 py39 INFO basepage.py[第61行] 元素 ('xpath', "//div[@class='upload-icon-cont']//i[1]") 可见并返回了元素对象
+2021-09-23 10:35:36 py39 INFO basepage.py[第247行] 点击上传文件E:\NingmengbanWebUIAuto\data\img_coures\lesson_cover.png
+2021-09-23 10:35:41 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//input[@placeholder='请选择'])[1]") 可见并返回了元素对象
+2021-09-23 10:35:41 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//span[starts-with(text(), '单元')])[last()]") 可见并可用，返回了元素对象
+2021-09-23 10:35:41 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[starts-with(text(), '单元')])[last()]") 可见并返回了元素对象
+2021-09-23 10:35:41 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:35:41 py39 INFO basepage.py[第61行] 元素 ('css', "[role='switch'] span") 可见并返回了元素对象
+2021-09-23 10:35:41 py39 INFO basepage.py[第336行] 执行js命令 arguments[0].click();.
+2021-09-23 10:35:41 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='是否引导添加老师:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:35:41 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='提示引导']") 可见并可用，返回了元素对象
+2021-09-23 10:35:41 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='提示引导']") 可见并返回了元素对象
+2021-09-23 10:35:41 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='课节类型:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:35:41 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='混编课节']") 可见并返回了元素对象
+2021-09-23 10:35:41 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='版权号:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:35:41 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:35:42 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:35:42 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//p[text()='创建成功']"), 最长等待时间: 15秒.
+2021-09-23 10:35:42 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:35:42 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//p[text()='创建成功']")的文本值：创建成功
+2021-09-23 10:35:42 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//span[text()=' 编辑 '])[last()]") 可见并返回了元素对象
+2021-09-23 10:35:43 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//button[@type='button']//i)[4]") 可见并可用，返回了元素对象
+2021-09-23 10:35:43 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//button[@type='button']//i)[4]") 可见并返回了元素对象
+2021-09-23 10:35:43 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='环节名称:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:35:43 py39 INFO basepage.py[第412行] 元素 ('xpath', "//span[text()='看一看']") 可见并可用，返回了元素对象
+2021-09-23 10:35:43 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()='看一看']") 可见并返回了元素对象
+2021-09-23 10:35:43 py39 INFO basepage.py[第412行] 元素 ('xpath', "(//label[text()='环节类型:']/following::input)[1]") 可见并可用，返回了元素对象
+2021-09-23 10:35:43 py39 INFO basepage.py[第61行] 元素 ('xpath', "(//label[text()='环节类型:']/following::input)[1]") 可见并返回了元素对象
+2021-09-23 10:35:44 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:35:44 py39 INFO basepage.py[第412行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(8)') 可见并可用，返回了元素对象
+2021-09-23 10:35:44 py39 INFO basepage.py[第61行] 元素 ('css', 'body>div:nth-last-of-type(1) ul li:nth-child(8)') 可见并返回了元素对象
+2021-09-23 10:35:44 py39 INFO basepage.py[第61行] 元素 ('xpath', "//input[@placeholder='输入kada协议']") 可见并返回了元素对象
+2021-09-23 10:35:45 py39 INFO basepage.py[第61行] 元素 ('xpath', "//span[text()=' 保存 ']") 可见并返回了元素对象
+2021-09-23 10:35:46 py39 INFO basepage.py[第461行] Sleep for 1 seconds
+2021-09-23 10:35:46 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:35:46 py39 INFO basepage.py[第377行] 等待元素可见：('xpath', "//p[text()='创建成功']"), 最长等待时间: 15秒.
+2021-09-23 10:35:46 py39 INFO basepage.py[第61行] 元素 ('xpath', "//p[text()='创建成功']") 可见并返回了元素对象
+2021-09-23 10:35:46 py39 INFO basepage.py[第130行] 获取元素：('xpath', "//p[text()='创建成功']")的文本值：创建成功
