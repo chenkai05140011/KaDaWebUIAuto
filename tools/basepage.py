@@ -58,7 +58,7 @@ class BasePage:
                     element = self.driver.find_element_by_xpath(value)
                 else:
                     logger.error('Not find the element')
-                logger.info("元素 {} 可见并返回了元素对象".format(loc))
+                logger.info("元素  {} 可见并返回了元素对象".format(loc))
                 return element
             # except NoSuchElementException as e:
             #     logger.error("NoSuchElementException %s " % e)

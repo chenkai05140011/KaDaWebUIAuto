@@ -35,7 +35,6 @@ def driver(request):
     request.addfinalizer(end)  # 终结函数
     return _driver
 
-
 @allure.feature("用户登录")
 @pytest.fixture(scope="package")
 def login_k(driver):

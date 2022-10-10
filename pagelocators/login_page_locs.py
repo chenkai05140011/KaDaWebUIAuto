@@ -13,8 +13,10 @@ class LoginPageLocs(object):
     """
     # 用户名输入框
     loc_user = ("css", 'input[placeholder="请输入用户名"]')
+    loc_user1 = ("css", 'input[placeholder="手机号/身份证号"]')
     # 密码输入框
     loc_password = ("css", 'input[placeholder="请输入登录密码"]')
+    loc_password1 = ("css", 'input[placeholder="请输入登录密码"]')
     # 登录按钮
     loc_button = ("css", "button[type=button]")
     # 错误提示

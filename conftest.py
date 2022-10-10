@@ -7,7 +7,7 @@ def pytest_addoption(parser):
     parser.addoption(
         "--cmdhost",
         action="store",
-        default="http://10.0.10.64:99",
+        default="https://pwebdev.bojx.com:6443",
         help="test case project host address"
     )
 
